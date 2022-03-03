@@ -31,9 +31,6 @@ class App extends Component {
   render() {
     const { monsters, searchString } = this.state;
     const { onSearchChange } = this;
-    // const fileteredMonsters = monsters.filter((monster) => {
-    //   return monster.name.toLocaleLowerCase().includes(searchString);
-    // });
    
     return (
       <>
